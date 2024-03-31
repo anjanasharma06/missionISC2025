@@ -1,4 +1,4 @@
-package Basic;
+package Basics;
 
  import java.util.*;
 public class celciusTofahrenheit {

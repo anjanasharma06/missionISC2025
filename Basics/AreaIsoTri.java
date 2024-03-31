@@ -1,7 +1,9 @@
-package Basic;
- import java.util.*;
-public class AreaTriangle {
-    public static void main(String[] args) {
+package Basics;
+
+import java.util.Scanner;
+
+public class AreaIsoTri {
+      public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the value of breadth and height");
         int b=scanner.nextInt();
@@ -11,19 +13,4 @@ public class AreaTriangle {
         System.out.println("the area is :"+ area );
 
     }
-
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-

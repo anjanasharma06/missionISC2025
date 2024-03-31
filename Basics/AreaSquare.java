@@ -1,15 +1,14 @@
-package Basic;
+package Basics;
 
 import java.util.Scanner;
 
-public class AreaParall {
+public class AreaSquare {
      public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the value of breadth and height");
-        int b=scanner.nextInt();
-        int h=scanner.nextInt();
+        System.out.println("Enter the value of side");
+        int s=scanner.nextInt();
         int area=0;
-        area=(b*h);
+        area=s*s;
         System.out.println("the area is :"+ area );
 
     }

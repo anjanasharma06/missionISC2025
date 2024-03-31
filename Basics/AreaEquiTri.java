@@ -1,14 +1,14 @@
-package Basic;
+package Basics;
 
 import java.util.Scanner;
 
-public class AreaSquare {
+public class AreaEquiTri {
      public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the value of side");
         int s=scanner.nextInt();
-        int area=0;
-        area=s*s;
+        double area=0.0;
+        area=(1.732*s*s)/4;
         System.out.println("the area is :"+ area );
 
     }
