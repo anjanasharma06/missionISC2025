@@ -1,5 +1,16 @@
 package Pattern_Star;
+/*
 
+*                 * 
+* *             * * 
+* * *         * * * 
+* * * *     * * * * 
+* * * * * * * * * * 
+* * * *     * * * * 
+* * *         * * *
+* *             * * 
+*                 *
+ */
 public class butterFly_ {
     public static void main(String[] args) {
         int a=8,b=2;

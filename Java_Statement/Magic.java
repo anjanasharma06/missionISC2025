@@ -23,13 +23,12 @@ public class Magic
         int num;
         int sum=Sum_of_digits( n);
         while(sum>9){
-       
-        num=sum;
-        sum=Sum_of_digits(num);
-    }
+            num=sum;
+            sum=Sum_of_digits(num);
+        }
     if(sum==1)
         System.out.println("Magic");
-        else
+    else
         System.out.println("not a magic");
     
 }
@@ -39,8 +38,7 @@ public class Magic
        int n=sc.nextInt();
        Magic obj=new Magic();
        obj.getnum( n);
-       obj.Sum_of_digits(n);
-        obj. ismagic();
-       
-}
+      obj.Sum_of_digits(n); 
+       obj. ismagic();
+    }
 }

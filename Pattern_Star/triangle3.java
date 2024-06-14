@@ -1,5 +1,11 @@
 package Pattern_Star;
-
+/*
+ * * * * *
+ * * * *
+ * * *
+ * *
+ * 
+  */
 public class triangle3 {
     public static void main(String args[])
     {

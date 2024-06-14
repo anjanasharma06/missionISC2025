@@ -1,5 +1,13 @@
 package Pattern_Star;
-
+/* 
+      * 
+    * * * 
+  * * * * * 
+* * * * * * * 
+  * * * * * 
+    * * * 
+      *
+ */
 public class diamond_ {
     public static void main(String[] args) {
         int a=1;

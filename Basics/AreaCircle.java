@@ -1,4 +1,4 @@
-package Basics;
+package BASICS;
 
  import java.util.*;
 public class AreaCircle{
